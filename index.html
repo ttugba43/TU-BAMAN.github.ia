@@ -1,0 +1,145 @@
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>TA</title>
+        </head>
+</html>
+
+
+
+<style>
+
+
+
+    
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(resimler/ana\ ekran.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+    .btn{
+    width: 9em;
+    height: 3em;
+    border-radius: 50em;
+    font-size: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #fcfafa, -6px 6px 12px #ffffff;
+}
+.btn::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #db5c5c 0%, #f90404 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 10em;
+    
+}
+    
+
+.sol_kisim {
+    background-color: rgb(199, 67, 67); 
+    width: 15%; 
+    padding: 20px; 
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh; 
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1); 
+    color: white; 
+    font-family: Arial, sans-serif; 
+}
+
+
+.sag_kisim {
+    width: 85%; 
+    float: right;
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    padding: 15px; 
+    margin: 5px 0; 
+    background-color: rgb(10, 10, 10); 
+    border-radius: 8px; 
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(199, 67, 67); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+    
+
+
+    
+</style>
+</head>
+<body>
+
+    <div class="sol_kisim">
+        
+        <br>TUĞBAMAN<br>
+     <br>
+        <ul class="menu">
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+            <li><a href="yorumlar.html">Yorumlar</a></li>
+       
+        </ul>
+        
+</div>
+
+
+
+
+    <a href="ikinci.html"><button class="btn">LEZZETLERE KOŞ!</button></a>
+ 
+
+
+
+</body>
+
+</html>
